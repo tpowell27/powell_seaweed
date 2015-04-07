@@ -46,10 +46,12 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     
+    ofCircle(posx1,20,30);
+    
 //  Sets the color for the vertical polyline.
-    color1.setHue(100);
+    color1.setHue(139);
     color1.setSaturation(255);
-    color1.setBrightness(150);
+    color1.setBrightness(190);
     ofSetColor(color1);
     
 //  Draws the vertical polyline
