@@ -46,7 +46,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     
-    ofCircle(posx1,20,30);
+    //ofCircle(posx1,20,30);
     
 //  Sets the color for the vertical polyline.
     color1.setHue(139);
